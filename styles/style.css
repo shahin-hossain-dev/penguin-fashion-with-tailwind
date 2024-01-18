@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
 
 .banner img {
     filter: blur(8px);
@@ -6,4 +6,8 @@
 
 .bebas-font {
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
 }
