@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    <header class="bg-amber-50">
+    <header class="bg-amber-50 pb-14">
         <!-- nav section -->
-        <nav class="flex justify-between items-center w-10/12 mx-auto">
+        <nav class="flex justify-between items-center max-w-6xl mx-auto">
             <div class="py-5">
                 <img src="./icons/logo.png" class="w-80" alt="">
             </div>
-            <div>
+            <div class="hidden md:block">
                 <ul class="flex gap-5">
                     <li><a href="" class="font-semibold">Home</a></li>
                     <li><a href="" class="font-semibold">Product</a></li>
@@ -26,9 +26,11 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div class="banner flex items-center justify-between  w-10/12 mx-auto">
+        <div
+            class="banner flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-0  max-w-6xl mx-auto">
             <div>
-                <h1 class="uppercase text-7xl font-semibold"><span class="text-[#FABE4C]">Be the Penguins</span><br>
+                <h1 class="uppercase text-7xl font-semibold bebas-font"><span class="text-[#FABE4C]">Be the
+                        Penguins</span><br>
                     <span>of Winter</span>
                 </h1>
                 <p class="mb-4">
@@ -41,9 +43,13 @@
                 <img src="./images/model.png" alt="">
             </div>
         </div>
-
     </header>
-    <main></main>
+
+    <main class="max-w-6xl mx-auto">
+        <section>
+            <h2 class="uppercase bebas-font text-5xl">Woman Jacket</h2>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
